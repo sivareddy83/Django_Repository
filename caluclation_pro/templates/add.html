@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="/cal_app/output" method="POST">
+		{% csrf_token%}
+
+		enter fno:<input type="text" name="t1"><br><br>
+		enter sno:<input type="text" name="t2"><br><br>
+
+
+
+
+		          <input type="submit" value="add" name="but">
+		          <input type="submit" value="sub" name="but">
+		          <input type="submit" value="mul" name="but">
+		          <input type="submit" value="div" name="but">
+		
+	</form>
+		
+
+</body>
+</html>
